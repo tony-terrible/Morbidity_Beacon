@@ -4,9 +4,23 @@
   body {background-color: #bb3232;}
   h1   {color: blue;}
   p    {color: red;}
+  .container {
+    display: flex;
+  }
+  .container div {
+    flex: 1;
+  }
+  .column_center {
+    order: 2;
+  }
   </style>
 </head>
 <body>
 <img src="confimesh1.png">
+<div class="container">
+   <div class="column-center">Column center</div>
+   <div class="column-left">Column left</div>
+   <div class="column-right">Column right</div>
+</div>
 </body>
 </html>
