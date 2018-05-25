@@ -1,0 +1,1 @@
+obfsproxy --log-file=obfsproxy.log --log-min-severity=info obfs3 --dest=127.0.0.1:1194 server 0.0.0.0:51194
